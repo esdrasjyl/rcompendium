@@ -23,3 +23,5 @@ man/
 NAMESPACE
 renv/
 .Rprofile
+#ignorar base de datos intermedia (regenerable)
+outputs/*.rds

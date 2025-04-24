@@ -23,4 +23,6 @@ dat_clean <- dat %>%
 # Write clean data
 dat_clean %>%
   readr::write_rds("outputs/linelist_clean.rds")
-
+#datos regenerble spor codigo no es necesario resubirlos ignorarlos al igual que los datos crudos
+#el codigo siempre es importamte ratrear
+print("listo")
